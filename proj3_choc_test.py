@@ -122,4 +122,4 @@ class TestRegionSearch(unittest.TestCase):
         self.assertEqual(results[0][0], 'Oceania')
         self.assertGreater(results[3][1], 3.0)
 
-unittest.main()
+unittest.main(verbosity = 2)
